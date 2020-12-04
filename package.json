@@ -1,5 +1,5 @@
 {
-  "title": "ERC20 Token Generator",
+  "title": "ERC20 Token生成器（test）",
   "name": "erc20-generator",
   "version": "1.0.0",
   "description": "Easily deploy Smart Contract for a Standard, Capped, Mintable, Burnable, Payable ERC20 Token.",
@@ -18,7 +18,7 @@
   "author": "Vittorio Minacori (https://github.com/vittominacori)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vittominacori/erc20-generator.git"
+    "url": "https://github.com/xdweleven/erc20-generator.git"
   },
   "dependencies": {
     "@saeris/vue-spinners": "^1.0.8",

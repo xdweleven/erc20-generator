@@ -5,19 +5,19 @@
                      class="mb-0 blue-gradient"
                      fluid>
             <template #lead>
-                Create an ERC20 Token in less than a minute with the most used Smart Contract Generator for ERC20 Token.
+                使用最常用的ERC20令牌智能合约生成器，在不到一分钟的时间内创建一个ERC20令牌.
                 <br>
-                No login. No setup. No coding required.
+                无需登录，无需安装，无需编码.
             </template>
             <hr class="my-5">
             <p>
                 <b-button to="/create-token/" size="lg" variant="success" class="my-2 py-3 px-5 text-uppercase">
-                    Create ERC20 Token
+                    创建ERC20 Token
                 </b-button>
                 <a class="btn btn-lg btn-outline-light py-3 px-5 text-uppercase"
                    href="#pricing"
                    v-smooth-scroll="{ duration: 1000, offset: 0, updateHistory: false }">
-                    Pricing
+                    报价
                 </a>
             </p>
         </b-jumbotron>

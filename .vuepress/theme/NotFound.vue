@@ -7,7 +7,7 @@
                         <b-card class="shadow-lg" bg-variant="light">
                             <h1>404</h1>
                             <blockquote>{{ getMsg() }}</blockquote>
-                            <router-link to="/">Take me home</router-link>.
+                            <router-link to="/">返回首页</router-link>.
                         </b-card>
                     </transition>
                 </b-col>

@@ -6,30 +6,30 @@
                     <b-col lg="4">
                         <b-list-group flush>
                             <b-list-group-item to="/" class="text-light">
-                                ERC20 Token Generator
+                                ERC20 Token生成器
                             </b-list-group-item>
                             <b-list-group-item to="/docs/" class="text-light">
-                                Documentation
+                                文档
                             </b-list-group-item>
                         </b-list-group>
                     </b-col>
                     <b-col lg="4">
                         <b-list-group flush>
                             <b-list-group-item to="/create-token/" class="text-light">
-                                Create ERC20 Token
+                                 创建ERC20 Token
                             </b-list-group-item>
                             <b-list-group-item href="/watch-token/" target="_blank" class="text-light">
-                                Create ERC20 Widget
+                                创建ERC20 Widget
                             </b-list-group-item>
                         </b-list-group>
                     </b-col>
                     <b-col lg="4">
                         <b-list-group flush>
                             <b-list-group-item v-b-modal.modal-feedback class="text-warning">
-                                <small>Leave a Feedback</small>
+                                <small>联系我们</small>
                             </b-list-group-item>
                             <b-list-group-item v-b-modal.modal-terms>
-                                <small>Terms of Use</small>
+                                <small>用户协议</small>
                             </b-list-group-item>
                         </b-list-group>
                     </b-col>
@@ -41,8 +41,8 @@
                     <b-list-group-item>
                         <small>
                             created by
-                            <b-link class="text-warning" href="https://vittominacori.github.io/" target="_blank">
-                                vittominacori
+                            <b-link class="text-warning" href="https://github.com/xdweleven/erc20-generator" target="_blank">
+                                即刻区块链组
                             </b-link>
                         </small>
                     </b-list-group-item>
@@ -63,7 +63,7 @@
             ></b-embed>
         </b-modal>
         <b-modal id="modal-terms"
-                 title="Terms of Use"
+                 title="用户协议"
                  size="lg"
                  centered
                  hide-footer>

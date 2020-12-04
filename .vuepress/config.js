@@ -1,15 +1,16 @@
 module.exports = {
-  description: 'Create an ERC20 Token in less than a minute with the most used Smart Contract Generator for ERC20 Token. No login. No setup. No coding required.',
+  description: '使用最常用的ERC20令牌智能合约生成器，在不到一分钟的时间内创建一个ERC20令牌。无需登录，无需安装，无需编码。',
   base: '/erc20-generator/',
   head: [
     ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
+    ['meta', { name: 'Content-Type', content: 'text/html; charset=utf-8' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:url', content: 'https://vittominacori.github.io/erc20-generator' }],
     ['meta', { property: 'og:image', content: 'https://vittominacori.github.io/erc20-generator/assets/images/erc20-token-generator.png' }], // eslint-disable-line max-len
     ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { property: 'twitter:image', content: 'https://vittominacori.github.io/erc20-generator/assets/images/erc20-token-generator.png' }], // eslint-disable-line max-len
-    ['meta', { property: 'twitter:title', content: 'ERC20 Token Generator | Create ERC20 Token for FREE' }],
+    ['meta', { property: 'twitter:title', content: 'ERC20代币生成器（test）' }],
     ['script', { src: '/assets/js/web3.min.js' }],
     ['script',
       {
